@@ -1,0 +1,3 @@
+juanjuanjuan
+juna
+/bin/python3 "/home/camper/Escritorio/Practica PYTHON/ejercicios funciones/Ejercicios semana santa /Sistema_estudiantes.py"

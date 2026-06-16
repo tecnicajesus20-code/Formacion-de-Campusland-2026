@@ -1,0 +1,29 @@
+................  -Lista de Gastos-  ...................... 
+
+---------------------------------------------------------
+domingo/abril/2026
+10:54
+.-Categoria: Comida
+.-Monto = $ 200 
+.-Motivo del gasto: perros
+
+---------------------------------------------------------
+domingo/abril/2026
+10:54
+.-Categoria: Entretenimiento
+.-Monto = $ 200 
+.-Motivo del gasto: ola
+
+---------------------------------------------------------
+domingo/abril/2026
+10:54
+.-Categoria: Comida
+.-Monto = $ 200 
+.-Motivo del gasto: perros
+
+---------------------------------------------------------
+domingo/abril/2026
+12:10
+.-Categoria: Comida
+.-Monto = $ 2000 
+.-Motivo del gasto: Perros

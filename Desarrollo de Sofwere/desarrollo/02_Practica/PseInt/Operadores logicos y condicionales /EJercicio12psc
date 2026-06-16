@@ -1,0 +1,29 @@
+Algoritmo NotasCalc
+	Definir nota1 , nota2 , nota3, promedio Como Real
+	Escribir " Digite las ultimas 3 notas de previos ( Enter para el proximo ) "
+	Leer nota1
+	Leer nota2
+	Leer nota3
+	promedio <- ( nota1 + nota2 + nota3 ) / 3
+	Si promedio > 5 Entonces
+		Escribir  " Es imposible sacar mas de 5"
+	FinSi
+	
+	Si promedio >= 4.5 & promedio < 5 Entonces
+		Escribir " Excelente  "
+	SiNo
+		Si promedio >= 3.5 & promedio < 4.5 Entonces
+			Escribir  " bueno" 
+		FinSi
+		Si promedio >= 3 & promedio <3.5 Entonces
+			Escribir " aceptable  "
+		FinSi
+		Si promedio < 3 Entonces
+			Escribir "Reprobado"
+		FinSi
+	FinSi
+	Escribir "tu promedio en los 3 previos fue de: " , promedio
+	
+	
+	
+FinAlgoritmo

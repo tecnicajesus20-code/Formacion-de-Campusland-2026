@@ -1,0 +1,6 @@
+vendedor,producto,cantidad,precio
+Ana,Menta,50,300
+Luis,Chocorramo,20,1000
+Ana,Esfero,30,2700
+María,Chocolatina,40,2500
+Luis,Menta,80,300

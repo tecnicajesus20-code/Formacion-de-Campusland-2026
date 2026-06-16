@@ -1,0 +1,6 @@
+numero = int(input ("digite un numero entero"))
+decimal =float (input("digite un numero decimal"))
+palabra =  input ("Digite su nombre")
+print ( type(numero))
+print ( type(decimal))
+print ( type(palabra))

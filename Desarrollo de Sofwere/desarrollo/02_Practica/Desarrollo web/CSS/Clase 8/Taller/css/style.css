@@ -1,0 +1,36 @@
+body{
+    background-image: blanchedalmond ;
+    text-align: center;
+}
+
+.boton {
+    background-color: rgb(207, 255, 255);
+    display: inline-flex;
+    padding: 1vh;
+    border-radius: 10px;
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 0.2s ease;    
+    border: none;
+
+}
+
+.boton:hover {
+    background-color: aquamarine;
+    box-shadow: 2px 2px 2px black ;    
+    
+}
+.Spiner {
+    display: inline-flex;
+} 
+    
+
+.Spiner:hover {
+    transform: scale(1.2);
+    animation: girar 1s linear infinite;
+}
+
+@keyframes girar {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}

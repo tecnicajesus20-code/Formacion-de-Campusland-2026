@@ -1,0 +1,60 @@
+============================================================
+GUÍA DE ACTIVIDAD: MENÚ DE LA HELADERÍA "COPOS DE NIEVE"
+============================================================
+
+INSTRUCCIONES PARA EL ESTUDIANTE:
+Por cada elección que haga el cliente, debes confirmar el pedido y realizar la pregunta de seguimiento correspondiente de forma amable.
+
+------------------------------------------------------------
+PASO 1: SELECCIÓN DE BASE (EL RECIPIENTE)
+------------------------------------------------------------
+Opciones: 
+- Cono sencillo
+- Cono doble
+- Copa de cristal
+- Canastilla de galleta
+
+Respuesta esperada: 
+"Excelente elección. ¿Qué sabores de helado le gustaría agregar?"
+
+------------------------------------------------------------
+PASO 2: SABORES DE HELADO
+------------------------------------------------------------
+Opciones:
+- Clásicos: Vainilla, Chocolate suizo, Fresa natural.
+- Especiales: Frutos del bosque, Caramelo salado, Pistacho.
+
+Respuesta esperada: 
+"Perfecto, [Nombre del sabor]. ¿Desea añadir algún acompañamiento (topping) por un costo adicional?"
+
+------------------------------------------------------------
+PASO 3: ACOMPAÑAMIENTOS (TOPPINGS)
+------------------------------------------------------------
+Opciones:
+- Chispas de chocolate
+- Gomitas
+- Maní triturado
+- Fruta picada (fresa o banano)
+
+Respuesta esperada: 
+"Anotado. ¿Le gustaría alguna salsa para finalizar?"
+
+------------------------------------------------------------
+PASO 4: SALSAS Y CIERRE DEL PEDIDO
+------------------------------------------------------------
+Opciones:
+- Arequipe (dulce de leche)
+- Chocolate derretido
+- Mora
+- Leche condensada
+
+Respuesta esperada: 
+"¡Se ve delicioso! El total de su pedido es [Monto]. ¿Desea disfrutarlo aquí o prefiere para llevar?"
+
+============================================================
+EJEMPLO DE INTERACCIÓN:
+- Cliente: "Hola, quiero un helado en cono doble."
+- Estudiante: "¡Claro que sí! Un cono doble. ¿Qué dos sabores prefiere?"
+- Cliente: "Quiero chocolate y pistacho."
+- Estudiante: "Buena combinación. ¿Le gustaría ponerle chispas o fruta?"
+============================================================

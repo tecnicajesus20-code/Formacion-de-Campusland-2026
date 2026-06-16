@@ -1,0 +1,12 @@
+body {
+    padding: 5vh;
+    background-color: rgba(199, 229, 255, 0.767);
+}
+.container{
+    padding: 2vh;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 50px;
+    background-color: rgba(2, 119, 119, 0.788);
+    border-radius: 8px;
+}

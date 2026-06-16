@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Formulario de registro creado con HTML puro para practicar listas, tablas, citas y formularios.">
+        <meta name="author" content="Estudiante Tech Campus">
+        <title>CampusLand</title>
+        <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    
+    
+    <body>
+        <main>
+            <header id="inicio">
+                <img class= "image"  src="data:image/png;base64,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" alt="Logo de Tech Campus" width="90">
+                <h1 class="Titulo">Inscripccion  a Campusland</h1>
+                <p Class = "p1"> Aprende HTML construyendo una página para presentar información y recolectar datos.</p>
+
+                <nav class="nav" aria-label="Navegación principal">
+                    <a href="#programa">Programa</a>
+                    <a href="#horario">Horario</a>
+                    <a href="#frase">Frase</a>
+                    <a href="#registro">Registro</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+            </header>
+
+                <section id="programa">
+                    <hr>
+                    <h2>Programa de aprendizaje</h2>
+                <p>
+                    Este programa está diseñado para estudiantes que inician desde cero
+                    y quieren aprender a construir páginas web paso a paso.
+                </p>
+
+                
+
+                <h3>¿Qué veremos en esta sesión?</h3>
+                <ul class="listas">
+                    <li>Separadores para organizar el contenido.</li>
+                    <li>Listas para mostrar ideas o pasos.</li>
+                    <li>Tablas para presentar información ordenada.</li>
+                    <li>Formularios para recolectar datos del usuario.</li>
+                </ul>
+
+                <h3>Pasos para participar</h3>
+                <ol class="listas2">
+                    <li>Leer la información del programa.</li>
+                    <li>Revisar el horario disponible.</li>
+                    <li>Completar el formulario de registro.</li>
+                    <li>Confirmar los datos antes de enviar.</li>
+                </ol>
+                <hr>
+                </section>
+
+                <section id="horario">
+
+                    <h2>Horario sugerido</h2>
+                    <p>La siguiente tabla resume la distribución de la sesión práctica.</p>
+
+                    <table border="1">
+                        <tr>
+                            <th>Momento</th>
+                            <th>Actividad</th>
+                            <th>Profesor</th>
+                            <th>Duración</th>
+                            
+                        </tr>
+                        <tr>
+                            <td>Inicio</td>
+                            <td>Explicacón de listas, tablas y formularios</td>
+                            <td>Jhonatan Peñaloza</td>
+                            <td>30 minutos</td>
+                        </tr>
+                        
+                        <tr>
+                            <td> Sesion de Preguntas</td>
+                            <td> Los estudiantes Cuestionan el contenido</td>
+                            <td> Jesus Salcedo</td>
+                            <td> 45 minutos</td>
+                        </tr>
+
+                        <tr>
+                            <td>Práctica guiada</td>
+                            <td>Construcción de la página Registro Tech Campus</td>
+                            <td>Daniel Maldonado</td>
+                            <td>90 minutos</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Cierre</td>
+                            <td>Revisión, preguntas y reto final</td>
+                            <td>Pilar Herrera</td>
+                            <td>30 minutos</td>
+                        </tr>
+                        
+                    </table>
+                </section>
+                <section id="frase">
+                    <h2>Frase de inspiración</h2>
+
+                    <blockquote cite="https://developer.mozilla.org/es/docs/Web/HTML">
+                        <p>HTML es el lenguaje que estructura el contenido de la web.</p>
+                        <footer>
+                            Fuente: <cite>MDN Web Docs</cite>
+                        </footer>
+                    </blockquote>
+                    <hr>
+                </section>
+
+                <section id="registro">
+                    <h2>Formulario de registro</h2>
+                    <p>Completa tus datos para participar en la experiencia Tech Campus.</p>
+
+                    <form  method="post">
+                        <p>
+                            <labe: black ;
+                            <label for="corr <fieldset>lue="">Selecciona una opción</option>
+                                <option value="html-css">Python Basico</option>
+                                <option value="javascript">JavaScript básico</option>
+                                <option value="web-completa">Diseño web con HTML y CSS</option>
+                                <option value="web-completa">Ninguna de las anteriores</option>
+                            </select>
+                        </p>
+
+                        <p>Modalidad preferida:</p>
+                        <p>
+                            <input type="radio" id="presencial" name="modalidad" value="presencial">
+                            <label for="presencial">Presencial</label>
+                        </p>
+                        <p>
+                            <input type="radio" id="virtual" name="modalidad" value="virtual">
+                            <label for="virtual">Virtual</label>
+                        </p>
+
+                        <fieldset class="cuadrito">
+                            <legend class="I">Intereses del estudiante</legend>
+                            <p>
+                                <input type="checkbox" id="frontend" name="intereses" value="frontend">
+                                <label for="frontend">Analisis en bases</label>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="frontend" name="intereses" value="frontend">
+                                <label for="frontend">Diseño de páginas web</label>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="formularios" name="intereses" value="formularios">
+                                <label for="formularios">Formularios y recolección de datos</label>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="proyectos" name="intereses" value="proyectos">
+                                <label for="proyectos">Crear proyectos reales</label>
+                            </p>
+                
+                            <button type="submit" class="Boton1">Enviar registro</button>
+                            <button type="reset" class="Boton2" >Limpiar formulario</button>
+                        </p>
+                    </form>
+                    <hr>
+                </section>
+        </main>
+    </body>
+<html>

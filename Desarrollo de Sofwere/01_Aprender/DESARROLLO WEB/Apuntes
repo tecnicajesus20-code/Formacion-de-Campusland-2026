@@ -1,0 +1,29 @@
+hr = cambiio de idea representado por una linea 
+br = salto de linea en blanco}
+
+- TABLAS 
+<table> Define que el siguiente codigo es sobre tablas </table>
+tr = Crea tablas 
+td = les da informacion
+colspan= 2 (filas) 
+rowspan = 3 (columnas)
+
+- LISTAS
+ *enumeradas*
+ ol = Con secuencia con numeros, abecedario etc
+ li = define cantidad de items
+*No ennumumere*
+ ul = Sin secuencia como signos
+ li = define cantidad de items
+ 
+- BLOCKQUOTE = Sirve para citar algo largo desde otra pagina o escribir de forma en cita
+
+-FORMULARIOS
+<form> = etiqueta principal inicia el formulario 
+action = 
+method =
+name = 
+target =
+enctype
+autocomplete = 
+

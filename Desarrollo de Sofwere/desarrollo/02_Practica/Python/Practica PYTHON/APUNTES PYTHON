@@ -1,0 +1,42 @@
+	PYTHON 
+Print = Escribir 
+input  = leer 
+
+Type () --> Le pregunta al progrma ¿ Que tipo de variable es la que esta dentro del parentesis? 
+Int [Entero] 
+float [decimal] 
+str [cadena de texto]  
+bool [V o F] 
+
+Operadores aritmeticos 
+POTENCIA: **
+DIVICION ENTERA : // ( Te da los resultados sin decimales)
+MODULO : %
+
+Operadores Lógicos 
+And 
+or 
+not 
+
+Estructuras de desicion :
+IF
+if = Si 	Entonces 
+     FinSi
+     
+Elif = SiNo
+	  Si	 Entonces
+	  Finsi
+       FinSino
+       
+else SiNo 	Entonces
+     FinSino
+     
+Segun = match (new) PREGUNTAR
+
+Estructuras de repeticion ( Bucles ) 
+While true (repetir hasta ) PREGUNTAR
+While = Mientras 
+for = Para 
+
+
+

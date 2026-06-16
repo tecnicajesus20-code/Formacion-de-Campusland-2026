@@ -1,0 +1,4 @@
+def verDiccionarios(nombre):
+    print ("----------------------- .Categorias. ---------------------------")
+    for producto, precio in (nombre.items()):
+        print(f" {producto}: {precio}")

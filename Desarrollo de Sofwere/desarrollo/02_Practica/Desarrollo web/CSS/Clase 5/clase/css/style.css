@@ -1,0 +1,71 @@
+header {
+    background-color: #1d4ed8;
+    border-radius: 8px;
+    width: 999px;
+    max-width: width 999px;
+}
+header nav { 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(81, 159, 228);
+    padding-left: 190px;
+    
+}
+
+nav a { 
+    color:rgb(255, 255, 255);
+    background-color: rgb(136, 14, 14);
+    margin: 5px;
+    border-radius: 4px;
+    text-decoration: none ;
+    padding: 2px;
+}
+body { 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px; 
+    color: #000000; 
+    background-color: bisque;
+
+}
+.listas h2 { 
+    font-size: 24px; 
+    font-weight: 700; 
+}
+.tablas p { 
+    line-height: 1.7; 
+}
+.intro      {
+     text-align: center; 
+    }
+.hero h1    { 
+    letter-spacing: 1px; 
+}
+.long-text  { 
+    overflow-wrap: break-word;
+    word-break: break-word; 
+}
+.skills-list    { 
+    padding-left: 20px;
+    line-height:1.7; 
+}
+.skills-list li { 
+    margin-bottom: 8px; 
+}
+.skills-list li::marker { 
+    color: #1d4ed8; }
+
+.progress-table {
+        width: 100%;
+        border-collapse: collapse;
+}
+
+.progress-table th, .progress-table td {
+  border: 1px solid #ffffff;
+  padding: 12px;
+  text-align: left;
+}
+.progress-table th,.progress-table td {
+  border: 1px solid #0066ff;
+  padding: 12px;
+  text-align: left;
+}
