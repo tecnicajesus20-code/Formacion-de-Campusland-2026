@@ -1,0 +1,24 @@
+.Border{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:aliceblue ;
+    color: blue;
+    border-radius: 15px;
+    padding: 5vh;
+    margin: 10vh;
+}
+.boton{
+    background-color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:1vh;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    transition: all 1s ease;
+    margin: 1vh;
+}
+#boton:hover{
+    transform: scale(1.2);
+}
