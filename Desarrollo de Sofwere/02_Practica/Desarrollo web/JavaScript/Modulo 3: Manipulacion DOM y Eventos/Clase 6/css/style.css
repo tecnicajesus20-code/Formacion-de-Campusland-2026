@@ -1,0 +1,39 @@
+*{
+    background-color: rgba(233, 245, 255, 0.497);
+}
+
+.contenedor{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin: 5vh;
+    padding: 3vh;
+    
+}
+
+.card{
+    border: solid rgba(6, 107, 154, 0.79);
+    border-radius: 15px;
+    padding: 3vh;
+}
+
+.mensaje{
+    background-color:rgba(81, 174, 217, 0.246) ;
+    padding: 1vh;
+    border-radius: 15px ;
+}
+
+.botones{
+    padding: 2vh;
+}
+
+.boton{
+    margin: 1vh;
+    background-color: aqua;
+    border: none;
+    border-radius: 15px;
+    padding: 1vh;
+    cursor: pointer;
+}
+.oculto{
+    display: none;
+}

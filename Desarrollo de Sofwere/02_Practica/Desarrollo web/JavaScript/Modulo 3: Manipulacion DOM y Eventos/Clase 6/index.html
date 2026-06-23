@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Clase 6</title>
 </head>
 <body>
+    <main>
+        <header>
+            <h1>Fundamentos del DOM y manipulación mediante clases</h1>
+            <h2>leer y cambiar contenido</h2>
+        </header>
+    </main>
+    <section class="contenedor">
+        <div class="card">
+            <h2>Resultado en pantalla</h2>
+            <p id="mensaje" class="mensaje">Mensaje inicial</p>
+        </div>
+        
     
+        <div class="botones">
+            <button class="boton" id="btnTextContent">Usar textContent</button>
+            <button class="boton" id="btnInnerHTML">Usar innerHTML</button>
+            <button class="boton" id="btnLimpiar">Limpiar mensaje</button>
+            <button class="boton" id="btnAlternar">Mostrar / ocultar mensaje - toggle()</button>
+            <button class="boton" id="btnVerificar">Verificar clase - contains()</button>
+            <button class="boton" id="btnReemplazarClase">Cambiar estilo - replace()</button>
+        </div>
+    </section>
+    <section class="contenedor">
+        <div class="card">
+            <h2>Resultado en pantalla</h2>
+            <p id="mensaje" class="mensaje">Mensaje inicial</p>
+        </div>
+        
+    
+        <div class="botones">
+            <a id="enlace" href="https://google.com">Ir a Google</a>
+            <button  class="boton" id="btnLeer">Leer href</button>
+            <button  class="boton" id="btnCambiar">Cambiar enlace</button>
+            <button  class="boton" id="botonEnviar" disabled>Enviar formulario</button>
+            <button  class="boton" id="btnHabilitar">Habilitar botón</button>
+        </div>
+    </section>
+    <script src="js/Scripts.js" ></script>
 </body>
 </html>
